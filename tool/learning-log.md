@@ -10,7 +10,7 @@
 
 ##### Links you used today (websites, videos, etc)
 
-* I used (Babylon's playground feature)[https://playground.babylonjs.com/] to get a brief idea of a model of Babylon.
+* I used (Babylon's playground feature)[https://playground.babylonjs.com/][Babylon's playground feature] to get a brief idea of a model of Babylon.
 
 ##### Things you tried, progress you made, etc
 
