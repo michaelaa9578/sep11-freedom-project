@@ -6,6 +6,7 @@
 
 ---
 
+<<<<<<< HEAD
 ### 10/21/24:
 
 ##### Links you used today (websites, videos, etc)
@@ -52,6 +53,8 @@ What components of bootstrap might be more applicable to certain categories of c
 ##### What you're going to try next
 
 I'm going to continue to try to research and execute more bootstrap code to see what's most fit for the given project content.
+=======
+>>>>>>> 2acdc4c3fcfec47b6ef42011c59ff1aa21f00c97
 
 ### X/X/XX:
 * Text
