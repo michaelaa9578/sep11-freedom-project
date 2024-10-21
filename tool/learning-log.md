@@ -10,48 +10,53 @@
 
 ##### Links you used today (websites, videos, etc)
 
-My partner and I created a wireframe to have a rough draft of our project. This is to help us envision certain parts in a general way but as we gradually continue to edit our content to be more thorough, we'll add more details to that original layout (or even completely change it).
-JS Bin
-I used getbootstrap.com to research and test out different bootstrap components.
+* I used (Babylon's playground feature)[https://playground.babylonjs.com/] to get a brief idea of a model of Babylon.
 
 ##### Things you tried, progress you made, etc
 
-After completing our plan, we decided to also plan our individual roles in the project. For example, HTML is my responsibility while the CSS is my partner's. Some parts, however, we decided to work on together as they were complex tasks which involved their own seprate individual roles.
-In terms of HTML code, I was able to test out a few bootstrap components, specifically including cards, navbars, and listgroups. Ahough, I wasn't able to properly execute these components in JS Bin, I was able to get a rough idea of what I wanted to incorporate into the project.
-These are the components I tinkered with:
-Navbar
-<ul>
-<li><a href="Navbar">Home</a></li>
-<li><a href="Navbar">News</a></li>
-<li><a href="Navbar">Contact</a></li>
-<li><a href="Navbar">About</a></li>
-</ul>
-Card
-<div class="card">
-<img src="img_avatar.png" alt="Avatar" style="width:100%">
-<div class="container">
-  <h4>  Lorem ipsum </h4>
-  <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-</div>
-</div>
-Listgroup
- <ul>
-  <li>Lorem ipsum</li>
-  <li>Lorem ipsum</li>
-  <li>Lorem ipsum</li>
-</ul>
+* I wanted to begin tinkering with the background of the given model as well as the model itself in the link and change factors like light intensity, variable diameters, and general variable shapes to see what each function did.
+
+* These are some of the components I added my separate values:
+
+###### Model Diameter
+
+```JS
+<var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {diameter: 6, segments: 32}, scene);
+```
+
+###### Model Position
+
+```JS
+sphere.position.y = 5;
+```
+
+###### Camera Position
+
+```JS
+var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, -10, -10), scene);
+```
+
+###### Light intensity of the Model
+
+```JS
+light.intensity = 5;
+```
+
+* With these particular values, I was able to change the initial position of the model to be higher within the parameters, the shape to be larger, and the color to be lighter.
 
 ##### Challenges, a-ha moments, etc
 
-Upon initially starting our plan, I was lost on the concept on bootstrap in terms of its sub categories. This included cards, collapse, dropdowns, etc. I'm now beginning to slowly learn about the various components and now realize that bootstrap, as a whole, is a complex system.
+* Components like light intensity and model positions, for example, are similar in function to the components I used in my tool from last year's freedom project, which helped me better familiarize this tool because both tools use similar code to display variables.
+
+* The components that I tinkered with (light intensity, position, etc.) helped me visualize functions and their outputs. When seeing any code relating to positioning a variable, I can picture moving around a certain shape within a parameter.
 
 ##### Questions you still have
 
-What components of bootstrap might be more applicable to certain categories of content? Are there general links?
+* What other foundational functions are there to display a model?
 
 ##### What you're going to try next
 
-I'm going to continue to try to research and execute more bootstrap code to see what's most fit for the given project content.
+* Over the course of the upcoming week, I'm going to continue to research and test out functions in Babylon and in my IDE. I'll create my own brief model consisting of these functions and the ones I have already tinkered with.
 
 ### X/X/XX:
 * Text
