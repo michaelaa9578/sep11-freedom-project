@@ -99,43 +99,43 @@ The simple act of switching through the different builds helped me visualize dif
 
 * I'm going to continue to tinker with the Node editor to further test my success with understanding the various blocks and functions for the remaining week. After that, I'll go back to tinkering with regular typed-out code and exploring the different functions through that. I'll most likely leave out the editor in the process of doing my final project because of my lackibg understanding of the mechanism but it helped me get familiar with certain properties which is why I'll keep it in mind.
 
-### 10/24/24:
+### 11/12/24:
 
 ##### Links you used today (websites, videos, etc)
 
-* I used [Babylon's Node Material Editor](https://nme.babylonjs.com/) to gain a more complex idea of modeling in Babylon.
+* I looked through various [Babylon demo projects](https://www.babylonjs.com/community/) to gain insight into the specific models I want for my freedom project.
 
 ##### Things you tried, progress you made, etc
 
-* I tried tinkering with Babylon Node Material Editor. Although I could only partially figure out the entire editor, the mechanism was similar to code.org, where you had to piece together certain pieces of code in a puzzle format. I attached inputs like the color block, which outputs a fragment block of the color that I input, essentially changing the color of my variables. I ended up simply making a colored square shape within a colored background. In previous classes, I tinkered with the position of the variables where I changed the altitude and camera position of my variables by altering x, y, and z dimensions.
+* I tested out numerous demos throughout the week to help me decide on the final layout of my project. I focused on things like the camera movement, function, subject of the demo, and the background.
 
-* These are some of the components I added my separate values into:
+* These are some of the findings I've compiled based on the different demos:
 
-###### Color
-
-PictureXXX
-
-Changing the colors helped me get familiar with the editor as a whole as I was able to practice connecting the color blocks to the variable blocks which was a key mechanism in executing any other general function within the program.
-
-###### Shape
+###### Visam 3D Hub
 
 PictureXXX
 
-The simple act of switching through the different builds helped me visualize different potential model prototypes for my medical simulation. Although I didn't have any success attaching specific color properties to the models, seeing the different properties and their sub-properties also aided me in visualizing potential model types for my final simulation.
+Through moving around the camera, I discovered the sole functionality of the demo was to observe the subject, seemingly a custom 3D model. This is ultimately the type of functionality I want to set on for my final project in which I incorporate various models with the purpose of analyzing them. The only things I would've changed would have been the camera movement in which I would have added the ability to free movement throughout the sandbox instead of staying in a fixed position. That means that I still have to look for a project that uses a similar type of camera movement to the one I'm looking to establish if I want to include that feature.
+
+###### Retail
+
+PictureXXX
+
+This demo uses the type of camera movement I want for my final project in which it freely moves throughout the sandbox. Although, the project is more simulation based rather than an observatory model where the purpose of the project is to display one or multiple subjects. To use this as a foundation would mean that I would have to switch out the entire concept of the project being that I only find the camera movement to my interest.
 
 ##### Challenges, a-ha moments, etc
 
-* Even attempting the simplest functions was difficult for me, hence, I couldn't successfully add other properties like gradience, for example, to my color variables.
+* I tested out other demos as well, although, I've found these two projects to contain the key factors I wanted to include in my person project and hence, I acknowledged that my primary focus was on their given sets of features that included free movement of the camera and the particular presentation of a subject.
 
-* I noticed that the Node Material editor added functions and properties more visually through connective blocks.
+* By being able to confirm these key points of the basis of my freedom project, I now have a better layout plan for my incorporation of the Babylon tool.
 
 ##### Questions you still have
 
-* Are there other methods of displaying code?
+* What factors are there to consider outside the camera movements, subject presentation, genre, etc.?
 
 ##### What you're going to try next
 
-* I'm going to continue to tinker with the Node editor to further test my success with understanding the various blocks and functions for the remaining week. After that, I'll go back to tinkering with regular typed-out code and exploring the different functions through that. I'll most likely leave out the editor in the process of doing my final project because of my lackibg understanding of the mechanism but it helped me get familiar with certain properties which is why I'll keep it in mind.
+* I'm going to compile sets of code that match up to the free camera movement and subject display represented in these models so that I can try to create a protoype which combines both of these features being that I wasn't able to find one that completely aligned with my vision.
 
 
 <!--
