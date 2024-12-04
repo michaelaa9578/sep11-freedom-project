@@ -1,9 +1,9 @@
 # Entry 1
 ##### 12/2/24
 
-### Content
+### Determining my Topic and Tool
 
-
+I've always pictured myself in the medical field and decided to continue researching the topic further especially considering my involvement with the same topic last year (which serves as valuable insight for my upcoming freedom project). I therefore decided to choose medicine as my leading topic once again to help me further acknowledge the importance of healthcare for me and billions of other people. This topic will help realize the significant impact medicine could have on the world with its reciprocal relationship to technology. Currently, technology is already making a notable and global difference in the medical industry. The article, '[Top 10 Medical Technologies 2022: Innovations In The Medical Field](https://www.techbusinessnews.com.au/top-10-medical-technologies-2022-innovations-in-the-medical-field/)' emphasizes the congruity between technology and medicine by listing the few most commonly utilized innovations used in hospitals including health monitoring devices, genomic sequencing, MRNA technology, robotics, etc. The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4048524/#:~:text=The%20new%20technologies%20will%20allow,several%20other%20benefits%20that%20would) offers the prospective future technology can offer regarding the healthcare system. This consists of remote monitoring, medicine administration, medication compliance, and the overall development of more efficient medical concepts. Having chosen a topic I was passionate about, I also had to choose the right tool in which I'll be able to fulfill my vision for the future of medicine. The tool I ended up choosing was [Babylon.js](https://www.babylonjs.com/). The ultimate goal is to visualize the future of potential medical technologies through a simulation. By scrolling through the website and tinkering with several of the tool's models and functions, I learned that it was efficient in visuals and 3D modeling which were significant aspects to forming a simulation.
 
 ###### I wanted to begin tinkering with the background of the given model as well as the model itself in the link and change factors like light intensity, variable diameters, and general variable shapes to see what each function did.
 
@@ -68,7 +68,7 @@ The simple act of switching through the different builds helped me visualize dif
 
 ### Summary
 
-I mostly tinkered with code revolving around the subject. This code generally included measurments and positioning. I was essentially managing the scenery and environment in which my project would be laid out on. I feel that this is a sufficient beginning to learning my tool in that I'm now able to create a foundation for my freedom project (which a signifcant part of it will deal with scenery).
+I mostly tinkered with code revolving around the subject in these and my following learning logs. This code generally included measurments and positioning. I was essentially managing the scenery and environment in which my project would be laid out on. I feel that this is a sufficient beginning to learning my tool in that I'm now able to create a foundation for my freedom project (which a signifcant part of it will deal with scenery).
 
 ### Engineering Design Process
 
