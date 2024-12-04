@@ -113,13 +113,18 @@ The simple act of switching through the different builds helped me visualize dif
 
 ###### Visam 3D Hub
 
-PictureXXX
+<img width="834" alt="Screenshot 2024-11-12 at 7 08 51 AM" src="https://github.com/user-attachments/assets/9d68324b-38f4-433d-8149-213606f80974">
+<img width="882" alt="Screenshot 2024-11-12 at 7 09 13 AM" src="https://github.com/user-attachments/assets/31c2b68c-75bd-449d-aabe-6e6fb0af2ea8">
+
+
 
 Through moving around the camera, I discovered the sole functionality of the demo was to observe the subject, seemingly a custom 3D model. This is ultimately the type of functionality I want to set on for my final project in which I incorporate various models with the purpose of analyzing them. The only things I would've changed would have been the camera movement in which I would have added the ability to free movement throughout the sandbox instead of staying in a fixed position. That means that I still have to look for a project that uses a similar type of camera movement to the one I'm looking to establish if I want to include that feature.
 
 ###### Retail
 
-PictureXXX
+<img width="978" alt="Screenshot 2024-11-12 at 7 10 01 AM" src="https://github.com/user-attachments/assets/5273d452-3a4c-43e3-8cb2-f176023f7ae1">
+<img width="978" alt="Screenshot 2024-11-12 at 7 10 24 AM" src="https://github.com/user-attachments/assets/0912425c-0f5b-42b2-b810-8cbf02f6ba67">
+
 
 This demo uses the type of camera movement I want for my final project in which it freely moves throughout the sandbox. Although, the project is more simulation based rather than an observatory model where the purpose of the project is to display one or multiple subjects. To use this as a foundation would mean that I would have to switch out the entire concept of the project being that I only find the camera movement to my interest.
 
