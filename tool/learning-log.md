@@ -142,11 +142,88 @@ This demo uses the type of camera movement I want for my final project in which 
 
 * I'm going to compile sets of code that match up to the free camera movement and subject display represented in these models so that I can try to create a protoype which combines both of these features being that I wasn't able to find one that completely aligned with my vision.
 
+### 12/20/24:
 
-<!--
-* Links you used today (websites, videos, etc)
-* Things you tried, progress you made, etc
-* Challenges, a-ha moments, etc
-* Questions you still have
-* What you're going to try next
--->
+##### Links you used today (websites, videos, etc)
+
+* I looked through various [Babylon demo projects](https://www.babylonjs.com/community/) to gain insight into the specific models I want for my freedom project.
+
+##### Things you tried, progress you made, etc
+
+* I tested out numerous demos throughout the week to help me decide on the final layout of my project. I focused on things like the camera movement, function, subject of the demo, and the background.
+
+* These are some of the findings I've compiled based on the different demos:
+
+###### Visam 3D Hub
+
+<img width="834" alt="Screenshot 2024-11-12 at 7 08 51 AM" src="https://github.com/user-attachments/assets/9d68324b-38f4-433d-8149-213606f80974">
+<img width="882" alt="Screenshot 2024-11-12 at 7 09 13 AM" src="https://github.com/user-attachments/assets/31c2b68c-75bd-449d-aabe-6e6fb0af2ea8">
+
+
+
+Through moving around the camera, I discovered the sole functionality of the demo was to observe the subject, seemingly a custom 3D model. This is ultimately the type of functionality I want to set on for my final project in which I incorporate various models with the purpose of analyzing them. The only things I would've changed would have been the camera movement in which I would have added the ability to free movement throughout the sandbox instead of staying in a fixed position. That means that I still have to look for a project that uses a similar type of camera movement to the one I'm looking to establish if I want to include that feature.
+
+###### Retail
+
+<img width="978" alt="Screenshot 2024-11-12 at 7 10 01 AM" src="https://github.com/user-attachments/assets/5273d452-3a4c-43e3-8cb2-f176023f7ae1">
+<img width="978" alt="Screenshot 2024-11-12 at 7 10 24 AM" src="https://github.com/user-attachments/assets/0912425c-0f5b-42b2-b810-8cbf02f6ba67">
+
+
+This demo uses the type of camera movement I want for my final project in which it freely moves throughout the sandbox. Although, the project is more simulation based rather than an observatory model where the purpose of the project is to display one or multiple subjects. To use this as a foundation would mean that I would have to switch out the entire concept of the project being that I only find the camera movement to my interest.
+
+##### Challenges, a-ha moments, etc
+
+* I tested out other demos as well, although, I've found these two projects to contain the key factors I wanted to include in my person project and hence, I acknowledged that my primary focus was on their given sets of features that included free movement of the camera and the particular presentation of a subject.
+
+* By being able to confirm these key points of the basis of my freedom project, I now have a better layout plan for my incorporation of the Babylon tool.
+
+##### Questions you still have
+
+* What factors are there to consider outside the camera movements, subject presentation, genre, etc.?
+
+##### What you're going to try next
+
+* I'm going to compile sets of code that match up to the free camera movement and subject display represented in these models so that I can try to create a protoype which combines both of these features being that I wasn't able to find one that completely aligned with my vision.
+
+1/13/25:
+
+##### Links you used today (websites, videos, etc)
+
+* I used [Babylon's Node Material Editor](https://nme.babylonjs.com/) again to gain a more thorough idea of modeling in Babylon.
+
+##### Things you tried, progress you made, etc
+
+* I tried tinkering with JS code that revolved around shaping which I could later link with the Babylon editor and compile the codes.
+
+###### Shape
+
+``` Js
+function setup() {
+  createCanvas(500, 500);
+  background(200);
+}
+```
+Here I called angleMode() in setup() which allowed me to use degrees to draw the perimeter of all arcs in the given scene. This code seems fairly explanatory to me as it uses a function, a topic I'm familiar with from class and parameters, another concept I'm somewhat familiar with. I inputted various colored shapes in the attachment to this body of code to create a canvas of shapes.
+
+```Js
+unction draw() {
+ fill("lightBlue");
+ rect(20, 20, 35, 37);
+
+ fill("yellow");
+ rect(20, 100, 35, 70);
+}
+```
+
+##### Challenges, a-ha moments, etc
+
+* I had trouble manipulating the overall canvas as I was unable to accommodate certain shapes with other shapes to create a specific visual. I need to reflect on this issue as it will hugely pertain to my final project.
+
+##### Questions you still have
+
+* Is this process similar with 3D shapes?
+
+##### What you're going to try next
+
+* I'm going to continue to tinker with these fill-in shapes and try to successfully create a coordinated ending visual to be able to get an idea for my freedom project because, again, creating a coordinated visual is significant in my final project.
+
