@@ -9,16 +9,16 @@
 
 #### MVP
 
-- [Create basic webpage consisting of background information/context for product] (deadline: 3/20)
-  - [Gather info for context page] Subtask (deadline: 2/28)
-  - [Brainstorm how DOM will be incorporated to change the content of elements within webpage] Subtask (deadline: 3/5)
-  - [Create webpage prototype using information above and last year's freedom project as a source] Subtask (deadline: 3/15)
-  - [Edit the page and fix bugs] Subtask (deadline: 3/20)
-- [Create simulation prototype] (deadline: 4/1)
-  - [Gather key information including scene code and other supporting code to create a basic interactive simulation] Subtask (deadline: 3/25)
-  - [Conjoin all of the gathered code and run a functioning protoype of the sim] Subtask (deadline: 3/30)
-  - [Edit as needed including fixing bugs] Subtask (deadline: 4/1)
-- [Edit the project as a whole and test run] (deadline: 4/1)
+- [] Create basic webpage consisting of background information/context for product (deadline: 3/20)
+  - [] Gather info for context page (deadline: 2/28)
+  - [] Brainstorm how DOM will be incorporated to change the content of elements within webpage (deadline: 3/5)
+  - [] Create webpage prototype using information above and last year's freedom project as a source (deadline: 3/15)
+  - [] Edit the page and fix bugs (deadline: 3/20)
+- [] Create simulation prototype (deadline: 4/1)
+  - [] Gather key information including scene code and other supporting code to create a basic interactive simulation (deadline: 3/25)
+  - [] Conjoin all of the gathered code and run a functioning protoype of the sim (deadline: 3/30)
+  - [] Edit as needed including fixing bugs (deadline: 4/1)
+- [] Edit the project as a whole and test run (deadline: 4/1)
 
 #### Beyond MVP
 
