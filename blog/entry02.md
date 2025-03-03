@@ -3,35 +3,22 @@
 
 ### Content
 
-I wanted to begin tinkering with the background of the given model as well as the model itself in the link and change factors like light intensity, variable diameters, and general variable shapes to see what each function did.
+I wanted to move on from tinkering with the model of a scene for a bit to focus more so on the scene itself:
 
 * These are some of the components I added my separate values:
 
-###### Model Diameter
-
+###### Sky Scene
 ```JS
-<var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {diameter: 6, segments: 32}, scene);
+const skybox = BABYLON.MeshBuilder.CreateBox("skyBox", { size: 100.0 }, scene);
+const skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
+skyboxMaterial.backFaceCulling = false;
+skyboxMaterial.disableLighting = true;
+skybox.material = skyboxMaterial;
 ```
 
-###### Model Position
+*With this body of code, I'm able to install a sky type sandbox with varying size. This type of scene code is significant in creating a foundation  for my future freedom project. This would bring together my various code within the sanbox to formulate a unison model. I was able to create other scenes
 
-```JS
-sphere.position.y = 5;
-```
-
-###### Camera Position
-
-```JS
-var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, -10, -10), scene);
-```
-
-###### Light intensity of the Model
-
-```JS
-light.intensity = 5;
-```
-
-* With these particular values, I was able to change the initial position of the model to be higher within the parameters, the shape to be larger, and the color to be lighter.
+###
 
 ##### Realizations
 
