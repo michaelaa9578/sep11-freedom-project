@@ -227,3 +227,51 @@ unction draw() {
 
 * I'm going to continue to tinker with these fill-in shapes and try to successfully create a coordinated ending visual to be able to get an idea for my freedom project because, again, creating a coordinated visual is significant in my final project.
 
+3/3/25:
+
+##### Links you used today (websites, videos, etc)
+
+* I used [Babylon.js](https://nme.babylonjs.com/) to browse through more demos and examples.
+
+##### Things you tried, progress you made, etc
+
+* I tried tinkering more with the scenes of a subject rather than the subject itself to begin working on the foundation of my freedom project.
+
+``` JS
+const createScene = function () {
+    // Creates object
+    const scene = new BABYLON.Scene(engine);
+    // Creates and positions a camera
+    const camera = new BABYLON.FreeCamera("camera1",
+        new BABYLON.Vector3(0, 5, -10),
+        scene);
+    // Creates light
+    const light = new BABYLON.HemisphericLight("light",
+        new BABYLON.Vector3(0, 1, 0),
+        scene);
+    // Creates 'sphere' shape.
+    const sphere = BABYLON.MeshBuilder.CreateSphere("sphere",
+        {diameter: 2, segments: 32},
+        scene);
+    // Move sphere upward 1/2 its height
+    sphere.position.y = 1;
+    // Built-in 'ground' shape.
+    const ground = BABYLON.MeshBuilder.CreateGround("ground",
+        {width: 6, height: 6},
+        scene);
+    return scene;
+};
+```
+Here I combined a few of the scene sub-topics I have tinkered with before and conjoined them to create a basic prototype. I conjoined topics including light, positioning, inputting width and height, etc.
+
+##### Challenges, a-ha moments, etc
+
+* I didn't know what the necessary parts were to include within the scene until I looked back at the demos and their assigned code in which I noticed that most of them were made up of positioning and installations of objects.
+
+##### Questions you still have
+
+* How can I diversify the installed objects? Are there different versions of an object I can install?
+
+##### What you're going to try next
+
+* I'm going to continue to tinker with these basic scenes and try to add more concepts within them to complexify them.
