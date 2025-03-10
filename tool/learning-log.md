@@ -275,3 +275,64 @@ Here I combined a few of the scene sub-topics I have tinkered with before and co
 ##### What you're going to try next
 
 * I'm going to continue to tinker with these basic scenes and try to add more concepts within them to complexify them.
+
+3/10/25:
+
+##### Links you used today (websites, videos, etc)
+
+* I used [p5js.org/](https://p5js.org/) to browse through more test code.
+
+##### Things you tried, progress you made, etc
+
+* I tried tinkering with the given refrence 3D models to be able to later implement into my freedom project when creating the 3D medical simulation. Below is one of the refrence models I utilized:
+
+``` JS
+const octahedron_model = `
+v 0.000000E+00 0.000000E+00 40.0000
+v 22.5000 22.5000 0.000000E+00
+v 22.5000 -22.5000 0.000000E+00
+v -22.5000 -22.5000 0.000000E+00
+v -22.5000 22.5000 0.000000E+00
+v 0.000000E+00 0.000000E+00 -40.0000
+f     1 2 3
+f     1 3 4
+f     1 4 5
+f     1 5 2
+f     6 5 4
+f     6 4 3
+f     6 3 2
+f     6 2 5
+`;
+//draw a spinning octahedron
+let octahedron;
+
+function setup() {
+  createCanvas(100, 100, WEBGL);
+  octahedron = createModel(octahedron_model, '.obj');
+  describe('Vertically rotating 3D octahedron.');
+}
+
+function draw() {
+  background(200);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  model(octahedron);
+}
+```
+Here, I observed that the first half of the code (before the commented line) creates the octrahedral shape itself by uzing x, y and z coordinate numers. In the second half of our code (below the commented line), functions like `rotateX(frameCount * 0.01)` and `rotateY(frameCount * 0.01)` apply rotation to the octahedron.
+
+##### Challenges, a-ha moments, etc
+
+* I was surprised by the fact that you could apply animation to 3D models using simply functions. Before testing the octahedron code out, I assumed that the code would just display the shape rather than a visible camvas and rotating aspect until I further inspected the attached functions which allowed those factors to coexist with the model.
+
+* The coordinates to apply the shape to the camvas use a lot more numbers than I anticipated. I thought that that portion of the code would only use three numbers maximum consisting of x, y, and z. I'm assuming that the multiple numbers account for multiple vertices of the 3D octahedral.
+
+##### Questions you still have
+
+* What other functions are able to coexist with a 3D model within a canvas?
+
+*What do the various numbers account for?
+
+##### What you're going to try next
+
+* I'm going to continue to tinker with p5js.org to grasp a better idea of 3D models so that I'm able to include them in my furture medical simulation.
