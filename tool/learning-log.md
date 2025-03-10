@@ -319,20 +319,20 @@ function draw() {
   model(octahedron);
 }
 ```
-Here, I observed that the first half of the code (before the commented line) creates the octrahedral shape itself by uzing x, y and z coordinate numers. In the second half of our code (below the commented line), functions like `rotateX(frameCount * 0.01)` and `rotateY(frameCount * 0.01)` apply rotation to the octahedron.
+Here, I observed that the first half of the code (before the commented line) creates the octrahedral shape by using x, y, and z coordinate numbers. In the second half of our code (below the commented line), functions like `rotateX(frameCount * 0.01)` and `rotateY(frameCount * 0.01)` apply rotation to the octahedron.
 
 ##### Challenges, a-ha moments, etc
 
-* I was surprised by the fact that you could apply animation to 3D models using simply functions. Before testing the octahedron code out, I assumed that the code would just display the shape rather than a visible camvas and rotating aspect until I further inspected the attached functions which allowed those factors to coexist with the model.
+* I was surprised that you could apply animation to 3D models using simple functions. Before testing the octahedron code out, I assumed that the code would just display the shape rather than a visible canvas and rotating aspect until I further inspected the attached functions which allowed those factors to coexist with the model.
 
-* The coordinates to apply the shape to the camvas use a lot more numbers than I anticipated. I thought that that portion of the code would only use three numbers maximum consisting of x, y, and z. I'm assuming that the multiple numbers account for multiple vertices of the 3D octahedral.
+* The coordinates to apply the shape to the canvas using a lot more numbers than I anticipated. I thought that that portion of the code would only use three numbers maximum consisting of x, y, and z. I'm assuming that the multiple numbers account for multiple vertices of the 3D octahedral.
 
 ##### Questions you still have
 
-* What other functions are able to coexist with a 3D model within a canvas?
+* What other functions can coexist with a 3D model within a canvas?
 
 *What do the various numbers account for?
 
 ##### What you're going to try next
 
-* I'm going to continue to tinker with p5js.org to grasp a better idea of 3D models so that I'm able to include them in my furture medical simulation.
+* I'm going to continue to tinker with p5js.org to grasp a better idea of 3D models so that I'm able to include them in my future medical simulation.
