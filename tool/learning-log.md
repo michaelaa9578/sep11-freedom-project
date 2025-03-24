@@ -387,3 +387,28 @@ Here, I observed an animation being set for a moving octopus. Although I didn't 
 ##### What you're going to try next
 
 * I'm going to try to combine p5js variables with Babylon ones to try to create functional code.
+
+4/01/25
+
+* I tried tinkering with the more given refrence 3D models to be able to later implement into my medical simulation for my freedom project. Here is one of the models I tinkered with:
+
+``` JS
+ xxx
+```
+Here, I observed an animation being set for a moving octopus. Although I didn't understand a majority of this code at first, I learned that it is greatly similar to a lot of the p5js methods we learned being that the code utilizes concepts like operators with variables (just like using operators with x and y coordinates to manipulate a moving mouse). The code also used a lot of other unrelated p5js methods including math functions and for loops.
+
+##### Challenges, a-ha moments, etc
+
+* Realizing that the animation code is used primarily for loops and math functions, I know now that I will use the following methods when creating animation for my simulation as those methods can create the moving, animated features within the models.
+
+* I still struggle to fully understand the methods used despite having learned their basic functions. For example, I'll have to further research the code to comprehend what `Math.PI` and `Math.cos` is.
+
+* A lot of the code also consists of downloading Babylon meshes which means that I have to learn to execute that particular action in order to expose detailed animation in my medical simulation. But I'd consider this a beyond MVP feature.
+
+##### Questions you still have
+
+* What other code methods can I input into animation code besides math functions and p5js variables?
+
+##### What you're going to try next
+
+* I'm going to try to combine p5js variables with Babylon ones to try to create functional code.
