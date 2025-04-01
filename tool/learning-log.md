@@ -378,7 +378,7 @@ Here, I observed an animation being set for a moving octopus. Although I didn't 
 
 * I still struggle to fully understand the methods used despite having learned their basic functions. For example, I'll have to further research the code to comprehend what `Math.PI` and `Math.cos` is.
 
-* A lot of the code also consists of downloading Babylon meshes which means that I have to learn to execute that particular action in order to expose detailed animation in my medical simulation. But I'd consider this a beyond MVP feature.
+* A lot of the code also consists of downloading Babylon meshes which means that I have to learn to execute that particular action to expose detailed animation in my medical simulation. But I'd consider this a beyond MVP feature.
 
 ##### Questions you still have
 
@@ -390,25 +390,41 @@ Here, I observed an animation being set for a moving octopus. Although I didn't 
 
 4/01/25
 
-* I tried tinkering with the more given refrence 3D models to be able to later implement into my medical simulation for my freedom project. Here is one of the models I tinkered with:
+* I tried tinkering with given reference 3D models to be able to stitch them into a Babylon scene. Here is one of the models and scenes I tinkered with:
 
 ``` JS
- xxx
+    var ctx = scene.getMeshByName("plane").material.diffuseTexture.getContext();
+    ctx.clearRect(0, 0, 0, 0); // Clear the previous frame
+    ctx.fillText(frameCount, 0, 0); // Update the text with the current frame count
+    engine.resize(); // Resize the engine
+    scene.render(); // Render the scene
 ```
-Here, I observed an animation being set for a moving octopus. Although I didn't understand a majority of this code at first, I learned that it is greatly similar to a lot of the p5js methods we learned being that the code utilizes concepts like operators with variables (just like using operators with x and y coordinates to manipulate a moving mouse). The code also used a lot of other unrelated p5js methods including math functions and for loops.
+Here, I tried to implement a frame count into my Babylon scene. I had to convert my initial o5js code which was:
+
+``` JS
+    function setup() {
+    createCanvas(100, 100);
+    background(200);
+    textSize(30);
+    textAlign(CENTER, CENTER);
+    text(frameCount, 50, 50);
+    }
+```
+
+In my converted code, I had to begin to loop a function to be able to update the dynamic texture with the current frame count.
 
 ##### Challenges, a-ha moments, etc
 
-* Realizing that the animation code is used primarily for loops and math functions, I know now that I will use the following methods when creating animation for my simulation as those methods can create the moving, animated features within the models.
+* I didn't initially know that I had to convert my code for it to be compatible with Babylon.
 
-* I still struggle to fully understand the methods used despite having learned their basic functions. For example, I'll have to further research the code to comprehend what `Math.PI` and `Math.cos` is.
+* I still struggle to fully understand the methods used despite having learned their basic functions. For example, I'll have to further research the code to comprehend what `.material.diffuseTexture` and `.getContext` is.
 
-* A lot of the code also consists of downloading Babylon meshes which means that I have to learn to execute that particular action in order to expose detailed animation in my medical simulation. But I'd consider this a beyond MVP feature.
+* A lot of the code is seemingly similar to the unconverted code which indicates to me that the only difference I have to recognize is how elements are being written out.
 
 ##### Questions you still have
 
-* What other code methods can I input into animation code besides math functions and p5js variables?
+* How can I convert other coding elements into Babylon using what Babylon functions?
 
 ##### What you're going to try next
 
-* I'm going to try to combine p5js variables with Babylon ones to try to create functional code.
+* I'm going to further experiment with converting p5js elements into Babylon.
