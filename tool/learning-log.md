@@ -428,3 +428,43 @@ In my converted code, I had to begin to loop a function to be able to update the
 ##### What you're going to try next
 
 * I'm going to further experiment with converting p5js elements into Babylon.
+
+04/07/25
+
+* I browsed through and touched on a few potential 3D models I can incorporate into my medical simulation.
+
+``` JS
+        const box = BABYLON.Mesh.CreateBox("box", 2, scene);
+        box.rotation.x = -0.2;
+        box.rotation.y = -0.4;
+
+        const torus = BABYLON.Mesh.CreateTorus("torus", 2, 0.5, 15, scene);
+        torus.position.x = -5;
+        torus.rotation.x = 1.5;
+
+        const torusMaterial = new BABYLON.StandardMaterial("material", scene);
+        torusMaterial.emissiveColor = new BABYLON.Color3(0.4, 0.4, 0.4);
+        torus.material = torusMaterial;
+
+        const cylinder = BABYLON.Mesh.CreateCylinder("cylinder", 2, 2, 2, 12, 1, scene);
+        cylinder.position.x = 5;
+        cylinder.rotation.x = -0.2;
+```
+
+<img src="models.png" alt="models">
+
+Here, I compiled certain 3D shapes I found throughout the Babylon website to try to visualize my 3D medical gallery and gain inspiration from it.
+
+##### Challenges, a-ha moments, etc
+
+* I observed more relations between p5js and the given code including the operators with shape variables. I changed the values of the numbers, and I noticed that the two aspects also functioned the same: the speed of the rotations would either slow down or speed up.
+
+* I also observed similar code we recently learned when applying functions, essentially teaching the computer how to draw certain functions. Example: `function drawBody(x, y, w, h)` is similar to `BABYLON.Mesh.CreateCylinder("cylinder", 2, 2, 2, 12, 1, scene);`.
+
+##### Questions you still have
+
+* What other ways can I alter the involved animation other than changing the speed of the linked variables?
+
+##### What you're going to try next
+
+* I'm going to continue to tinker with more 3D model variants.
