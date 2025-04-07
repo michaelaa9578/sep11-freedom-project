@@ -451,7 +451,7 @@ In my converted code, I had to begin to loop a function to be able to update the
         cylinder.rotation.x = -0.2;
 ```
 
-<img src="models.png" alt="models">
+alt="models.png" src="models.png">
 
 Here, I compiled certain 3D shapes I found throughout the Babylon website to try to visualize my 3D medical gallery and gain inspiration from it.
 
