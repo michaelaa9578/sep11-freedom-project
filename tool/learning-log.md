@@ -431,7 +431,13 @@ In my converted code, I had to begin to loop a function to be able to update the
 
 04/07/25
 
-* I browsed through and touched on a few potential 3D models I can incorporate into my medical simulation.
+* Links you used today (websites, videos, etc)
+
+I used p5js.org/ to browse through more test code.
+
+* Things you tried, progress you made, etc
+
+I browsed through and touched on a few potential 3D models I can incorporate into my medical simulation.
 
 ``` JS
         const box = BABYLON.Mesh.CreateBox("box", 2, scene);
