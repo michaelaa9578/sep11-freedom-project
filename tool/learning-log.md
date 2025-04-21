@@ -431,7 +431,13 @@ In my converted code, I had to begin to loop a function to be able to update the
 
 04/07/25
 
-* I browsed through and touched on a few potential 3D models I can incorporate into my medical simulation.
+* Links you used today (websites, videos, etc)
+
+I used p5js.org/ to browse through more test code.
+
+* Things you tried, progress you made, etc
+
+I browsed through and touched on a few potential 3D models I can incorporate into my medical simulation.
 
 ``` JS
         const box = BABYLON.Mesh.CreateBox("box", 2, scene);
@@ -450,8 +456,12 @@ In my converted code, I had to begin to loop a function to be able to update the
         cylinder.position.x = 5;
         cylinder.rotation.x = -0.2;
 ```
+<<<<<<< HEAD
 
 alt="Screenshot 2025-04-06 at 10.28.27 PM" src="https://github.com/user-attachments/assets/0912425c-0f5b-42b2-b810-8cbf02f6ba67">
+=======
+<img width="405" alt="models" src="https://github.com/user-attachments/assets/830d88a6-d149-4f31-9ad4-226119b5e741" />
+>>>>>>> 4aacc203aa04bdc850c147c8a0e7c10b507fa3ea
 
 Here, I compiled certain 3D shapes I found throughout the Babylon website to try to visualize my 3D medical gallery and gain inspiration from it.
 
