@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Babylon Template</title>
+
+    <style>
+      html,
+      body {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #renderCanvas {
+        width: 100%;
+        height: 100%;
+        touch-action: none;
+      }
+    </style>
+
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+  </head>
+
+  <body>
+    <canvas id="renderCanvas" touch-action="none"></canvas>
+    <!-- touch-action="none" for best results from PEP -->
+
+    <script>
+      const canvas = document.getElementById("renderCanvas"); // Get the canvas element
+      const engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
+
+      // Add your code here matching the playground format
+      const createScene = function () {
+        const scene = new BABYLON.Scene(engine);
+
+        // BABYLON.ImportMeshAsync("https://assets.babylonjs.com/meshes/box.babylon");
+
+        const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2, Math.PI / 2.5, 15, new BABYLON.Vector3(0, 0, 0));
+        camera.attachControl(canvas, true);
+        const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
+
+
+        return scene;
+      };
+
+      const scene = createScene(); //Call the createScene function
+
+      // Register a render loop to repeatedly render the scene
+      engine.runRenderLoop(function () {
+        scene.render();
+      });
+
+      // Watch for browser/canvas resize events
+      window.addEventListener("resize", function () {
+        engine.resize();
+      });
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Function to create a complex machine
+function createComplexMachine() {
+    const machineGroup = new BABYLON.TransformNode("machineGroup", scene);
+
+    // Create machine components
+    const components = [
+        { type: 'base', params: { height: 0.5, width: 2, depth: 2 }, position: new BABYLON.Vector3(0, 0.25, 0) },
+        { type: 'cylinder', params: { height: 3, diameter: 0.5 }, position: new BABYLON.Vector3(0, 2, 0) },
+        { type: 'cylinder', params: { height: 1, diameter: 0.5 }, position: new BABYLON.Vector3(1, 1.5, 0) },
+        { type: 'sphere', params: { diameter: 1 }, position: new BABYLON.Vector3(0, 3, 0) },
+        { type: 'cylinder', params: { height: 2, diameter: 0.3 }, position: new BABYLON.Vector3(-1, 1, 0) }
+    ];
+
+    components.forEach(component => {
+        switch (component.type) {
+            case 'base':
+                createBase(machineGroup, component.params, component.position);
+                break;
+            case 'cylinder':
+                createCylinder("cylinder" + Math.random(), component.params.height, component.params.diameter, component.position, machineGroup);
+                break;
+            case 'sphere':
+                createSphere("sphere" + Math.random(), component.params.diameter, component.position, machineGroup);
+                break;
+        }
+    });
+
+    // Add six small outer spheres of different colors
+    const colors = [
+        new BABYLON.Color3(1, 0, 0), // Red
+        new BABYLON.Color3(0, 1, 0), // Green
+        new BABYLON.Color3(0, 0, 1), // Blue
+        new BABYLON.Color3(1, 1, 0), // Yellow
+        new BABYLON.Color3(1, 0, 1), // Magenta
+        new BABYLON.Color3(0, 1, 1)  // Cyan
+    ];
+
+    colors.forEach((color, index) => {
+        const position = new BABYLON.Vector3(Math.cos(index * Math.PI / 3) * 3, 0.5, Math.sin(index * Math.PI / 3) * 3);
+        createSphere("outerSphere" + index, 0.5, position, machineGroup, color);
+    });
+}
+
+// Helper function to create the base
+function createBase(parent, { height, width, depth }, position) {
+    const base = BABYLON.MeshBuilder.CreateBox("base", { height, width, depth }, scene);
+    base.position = position; // Set the position of the base
+    base.parent = parent; // Set the parent to the machine group
+    base.material = new BABYLON.StandardMaterial("baseMaterial", scene);
+    base.material.diffuseColor = new BABYLON.Color3(0.5, 0.5, 0.5); // Gray color
+    return base; // Return the created base
+}
+
+// Helper function to create a cylinder with color
+function createCylinder(name, height, diameter, position, parent) {
+    const cylinder = BABYLON.MeshBuilder.CreateCylinder(name, { height, diameterTop: diameter, diameterBottom: diameter }, scene);
+    cylinder.position = position; // Set the position of the cylinder
+    cylinder.parent = parent; // Set the parent to the machine group
+    cylinder.material = new BABYLON.StandardMaterial(name + "Material", scene);
+    cylinder.material.diffuseColor = new BABYLON.Color3(0.2, 0.6, 0.8); // Blue color
+    return cylinder; // Return the created cylinder
+}
+
+// Helper function to create a sphere with color
+function createSphere(name, diameter, position, parent, color) {
+    const sphere = BABYLON.MeshBuilder.CreateSphere(name, { diameter }, scene);
+    sphere.position = position; // Set the position of the sphere
+    sphere.parent = parent; // Set the parent to the machine group
+    sphere.material = new BABYLON.StandardMaterial(name + "Material", scene);
+    sphere.material.diffuseColor = color || new BABYLON.Color3(0, 50, 20); // Default to orange if no color is provided
+    return sphere; // Return the created sphere
+}
+
+// Create the complex machine
+createComplexMachine();
+
+// Render loop
+engine.runRenderLoop(() => {
+    scene.render(); // Continuously render the scene
+});
+
+
+    </script>
+  </body>
+</html>

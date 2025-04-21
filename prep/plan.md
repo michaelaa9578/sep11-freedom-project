@@ -10,15 +10,22 @@
 #### MVP
 
 - [ ] Create basic webpage consisting of background information/context for product (deadline: 3/20)
-  - [ ] Gather info for context page (deadline: 2/28)
-  - [ ] Brainstorm how DOM will be incorporated to change the content of elements within webpage (deadline: 3/5)
-  - [ ] Create webpage prototype using information above and last year's freedom project as a source (deadline: 3/15)
+  - [ ] Gather info for context page (deadline: 3/1) (Michaela)
+  - [ ] Put together necessary HTML to align with gathered information including navbar, lists, cards, etc. (deadline: 3/15) (Michaela)
+  - [ ] Put together necessary CSS to align with gathered information including coloring, sizing, fonts, etc. (deadline: 3/15) (Dildora)
+  - [ ] Incorporate JS including arrays, functions, loops, and conditionals (deadline: 3/25)
   - [ ] Edit the page and fix bugs (deadline: 3/20)
 - [ ] Create simulation prototype (deadline: 4/1)
   - [ ] Gather key information including scene code and other supporting code to create a basic interactive simulation (deadline: 3/25)
   - [ ] Conjoin all of the gathered code and run a functioning protoype of the sim (deadline: 3/30)
   - [ ] Edit as needed including fixing bugs (deadline: 4/1)
 - [ ] Edit the project as a whole and test run (deadline: 4/1)
+
+Blog: Github Repo
+Product: application that uses Javascript to perform one/multiple functions.
+Uses JS (array, function, loop, conditional)
+Uses LOYO tool
+
 
 #### Beyond MVP
 
