@@ -36,19 +36,11 @@ We found many difficulties in trying to plan our presentation to both the class 
 Analysis: Ultimately, we had to clearly communicate to each other our progresss and make clear what role we were committing to. We did this through assigned slides which helped us the most in determining our connections and differences in formulating an overall product. Being able to identify our standpoints helped us to clearly connect our combined efforts throughout this project and tie that progress back to our primarily goal and aspirations.  
 ### Engineering Design Process
 
-I've reached the end of my EDP, where I'm now on the final step of the process, and I'm communicating my results. I've already shared and will continue to share the final product with my peers for feedback which I can take advantage of for future projects. I plan to utilize this feedback in a general sense where I can apply it during my classes, to my schedule, and to my general life both in and out of school. Feedback I've received so far include COTNINUE
-
-
-
-
-
-
-
-
+I've reached the end of my EDP, where I'm now on the final step of the process, and I'm communicating my results. I've already shared and will continue to share the final product with my peers for feedback which I can take advantage of for future projects. I plan to utilize this feedback in a general sense where I can apply it during my classes, to my schedule, and to my general life both in and out of school. Feedback I've received so far include adding onto my project and building onto my goal which I will try to achieve but on a less strict schedule as I also want to pursue other projects. When I do begin to add onto my project, I want to try implementing animations into my simulation to make it more lively. 
 
 ### Skills
 
-One skill I was able to work on throughout this stage of the project was partnership. I've had to rely on my partner for this part of the project the most because we were made to constantly push and pull on our coding web spaces. A lot of merge conflicts interrupted our process to the point where we've harmed our schedule and ended up severely missing certain deadlines. We were able to resolve this by practicing our partnership in other classes. In English, we would peer review each other's work every chance we got and were, as a result, able to observe each other's work methods and perspectives. With this, we returned to our coding project and valued each other's thinking process when considering what roles and parts we would assign to each other to get our simulation done. Another skill that came hand in hand with partnership was communication and contact. To effectively and continuously consider each other's work methods and schedules, we had to incorporate digital communication into our daily schedules. With whatever time we had available, we made sure to have scheduled conversations in which we made sure to listen to each other and reflect upon exchanged ideas instead of arguing or rejecting potential ideas. We put these very same conversational skills to the test during our time working on the Freedom Project and noticed that we weren't stuck on the same steps anymore. Progress went a lot faster.
+Referring back to the miscommunication my partner and I experienced when planning to present our project, a skill I was able to reflect on was communication. During this time in our process, it was crucial we knew where the other party was at being that we had to tie in all our progress to our intial goal from the beginning of the year to the end. To do this, we were made to recollect and learn the information each of us possessed and exchange.
 
 ### Reflection
 
