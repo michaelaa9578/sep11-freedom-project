@@ -33,7 +33,7 @@ We found many difficulties in trying to plan our presentation to both the class 
 
 ![Screenshot 2025-05-30 10 25 33 AM](https://github.com/user-attachments/assets/42024efa-ca61-4042-aad6-fe4cb04d9d68)
 
-Analysis: Ultimately, we had to clearly communicate to each other our progress and make clear what role we were committing to. We did this through assigned slides which helped us the most in determining our connections and differences in formulating an overall product. Being able to identify our standpoints helped us to clearly connect our combined efforts throughout this project and tie that progress back to our primary goal and aspirations. \
+Analysis: Ultimately, we had to clearly communicate to each other our progress and make clear what role we were committing to. We did this through assigned slides which helped us the most in determining our connections and differences in formulating an overall product. Being able to identify our standpoints helped us to clearly connect our combined efforts throughout this project and tie that progress back to our primary goal and aspirations.
 
 ### Engineering Design Process
 
